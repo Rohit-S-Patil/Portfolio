@@ -351,44 +351,7 @@ section { position: relative; z-index: 1; }
 
 .btn-accent i { font-size: 0.9rem; }
 
-/* Scroll indicator */
-.scroll-indicator {
-  position: absolute;
-  bottom: 2rem;
-  left: 50%;
-  transform: translateX(-50%);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 0.4rem;
-  opacity: 0.5;
-  animation: fadeUp 1s 1.2s forwards;
-}
 
-.scroll-indicator span {
-  font-size: 0.7rem;
-  letter-spacing: 0.15em;
-  text-transform: uppercase;
-  color: var(--text-muted);
-}
-
-.scroll-mouse {
-  width: 24px;
-  height: 38px;
-  border: 2px solid var(--text-muted);
-  border-radius: 12px;
-  display: flex;
-  justify-content: center;
-  padding-top: 6px;
-}
-
-.scroll-wheel {
-  width: 4px;
-  height: 8px;
-  background: var(--accent);
-  border-radius: 99px;
-  animation: scrollWheel 1.8s ease-in-out infinite;
-}
 
 @keyframes scrollWheel {
   0%   { transform: translateY(0); opacity: 1; }
